@@ -1,0 +1,145 @@
+body{
+	font-family: 'alegreyaregular';
+	background: url('../assets/background.png');
+}
+
+h1, h2, h3, h4, h5, h6{
+	font-family: 'alegreyabold';
+}
+
+.close{
+	margin-right: -10px;
+/*	font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;*/
+}
+.clear{clear:both;}
+
+.container{
+	max-width:1024px;
+}
+.navbar-inverse .navbar-inner{
+	background: url('../assets/background4.png');
+}
+.navbar .nav {
+display: block;
+margin: 0 10px 0 0;
+width: 320px;
+margin: auto;
+left: auto;
+float: none;
+}
+.masthead .item{
+	overflow: hidden;
+}
+
+.masthead img{
+	max-width: 1920px;
+	position: relative;
+	left: 50%;
+	margin-left: -960px;
+}
+.span4 {margin-bottom:10px;cursor:pointer;}
+.span4 img{
+	width:100%;
+}
+
+.label{margin-bottom:5px;}
+
+.carousel{
+	/*margin-top: 40px;*/
+}
+.carousel-control {
+position: absolute;
+top: 40%;
+left: 0px;
+width: 40px;
+height: 40px;
+margin-top: -20px;
+padding-top: 20px;
+padding-bottom: 20px;
+border:none;
+font-size: 60px;
+font-weight: 100;
+line-height: 30px;
+color: #fff;
+text-align: center;
+background: #222;
+-webkit-border-radius: 0px;
+-moz-border-radius: 0;
+border-radius: 0;
+opacity: .5;
+filter: alpha(opacity=50);
+}
+.carousel-control.right {
+	right:0;
+}
+section{
+	padding:30px 0;
+}
+section.grey{
+	background: url('../assets/background2.png');
+}
+
+#work .span4{
+	position:relative;
+}
+.content {
+	position: absolute;
+	top: 0;
+	background: url('../assets/background.png');
+	padding: 0 20px;
+	height: 100%;
+	opacity: 0;
+  pointer-events: none;
+}
+
+.span4.open .content {
+	opacity: 1;
+	display:block;
+}
+.span4.open img {
+	opacity: 0;
+}
+
+@media (max-width: 979px) {
+	.navbar-fixed-top, .navbar-fixed-bottom, .navbar-static-top {
+		margin: 0;
+	}
+	.carousel{
+		margin-top: 0px;
+	}
+	.span4 p{
+		display:none;
+	}}
+@media (max-width: 767px) {
+	body{
+		padding:0;
+	}
+
+	h1, h2, h3, h4, h5, h6, p, a{
+		padding-left:10px;
+		padding-right:10px;
+	}
+
+  .masthead img{
+	max-width: 960px;
+	margin-left: -480px;
+	}
+	.span4{
+		width:50% !important;
+		float:left !important;
+		margin-bottom:0px;
+	} 
+	.span4 p{
+		display:none;
+	}
+	.span4 h4{
+		font-size:14px;
+	}
+	.row-fluid:after {
+		clear:none;
+	}
+	.progress{
+		margin-left:10px;
+		margin-right:10px;
+	}
+}
