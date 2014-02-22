@@ -6,3 +6,5 @@ I didn't endup using this code for my portfolio but feel free to use it and cust
 
 here is a link to the demo:
 [http://portfolio.thibautdelille.net](http://portfolio.thibautdelille.net)
+
+My real portfolio is here: [www.thibautdelille.com](http://www.thibautdelille.com)
